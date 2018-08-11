@@ -17,4 +17,7 @@ export class AppComponent {
   Increase() {
     this.number = this.number + 1;
   }
+  Decrease() {
+    this.number = this.number - 1;
+  }
 }
